@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <form>
+        <style>
+            table,th,td{
+                color: white;
+                background-color: blueviolet;
+                border-collapse: collapse;
+            }
+            p{
+                text-align: center;
+                color: blueviolet;
+                font-size: large;
+                text-decoration: underline;
+            }
+
+        </style>
+        <p> STUDENT REGISTRATION FORM</p>
+        <table align="center" cellpadding="15">
+            <tr>
+                <td> FIRSTNAME</td>
+                <td><input type="text">(max 30 charactersa-z andA-Z)<label for=""></label></td>
+            </tr>
+            <tr>
+                <td>LAST NAME</td>
+                <td><input type="text">(max 30 characters a-z and A-Z)<label for=""></label></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td><select name="" id="">
+                <option value="">Date</option></select> <select name="" id=""> <option value="">Month</option></select> <select name="" id=""> <option value="">Year</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>MOBILE NUMBER</td>
+                <td><input type="text">(10 digit number)</td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td><label for="">Male</label><input type="radio" select name="gender" id="gender"><label for="">female</label><input type="radio" select name="gender" id="gender"></td>
+            </tr> 
+            <tr>
+                <td>ADDRESS</td>
+                <td><textarea name="address" id="address" cols="40" rowa="4"></textarea></td>
+            </tr>  
+            <tr>
+                <td>CITY</td>
+                <td><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr> 
+            <tr>
+                <td>PINCODE</td>
+                <td><input type="text">(6 digit number)</td>
+            </tr>
+            <tr>
+                <td>STATE</td>
+                <td><input type="text">(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>COUNTRY</td>
+                <td><input type="text" placeholder="india "></td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td><label for="">Drawing</label><input type="checkbox"><label for="">Singing</label><input type="checkbox"><label for="">Dancing</label><input type="checkbox"><label for="">Sketching</label><input type="checkbox"><label for="">Others</label><input type="checkbox"><input type="text"></td>
+            </tr>
+            <tr>
+                <td>QUALIFICATION</td>
+                <td>
+                    
+                <table>
+                         <tr>
+                    <td>S.NO</td>
+                    <td>Examination</td>
+                    <td align="center">Board</td>
+                    <td align="center">Percentage</td>
+                    <td align="center">Year of passing</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X </td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                </table>        
+                        
+            <tr>
+                <td>COURSES APPLIED FOR</td>
+                <td><label for="">BCA</label><input type="radio" select name="courses" id="courses"><label for="">B.COM</label><input type="radio" select name="courses" id="courses"><label for="">B.Sc</label><input type="radio" select name="courses" id="courses"><label for="">B.A</label><input type="radio" select name="courses" id="courses"></td>
+            </tr>
+                <td><input type="submit" value="submit"><input type="submit" value="reset"></td>
+            </tr>
+      </form>
