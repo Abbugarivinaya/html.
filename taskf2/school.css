@@ -1,0 +1,83 @@
+section{
+    padding: 0 20%;
+    background-image: linear-gradient(to right, rgba(77, 71, 71, 0.656), rgba(13, 10, 10, 0.727)), url(../taskf2/school.webp);
+    background-size: cover;
+    height: 800px;
+    padding: 20px 300px;
+    font-size: larger;
+    height: 80vh;
+    width: 55vw;
+
+
+}
+
+nav{
+    display: flex;
+ 
+
+    
+}
+.div1{
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    padding: 0 20px;
+    align-items: center;
+    font-weight: 600;
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  font-family: 'Ubuntu', sans-serif;
+
+ }
+ul{
+   display: flex;
+   margin: 0;
+   padding: 0 400px;
+  
+}
+div {
+    text-align: center;
+    text-align: center;
+  
+  
+  
+}
+span{
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+}
+.div1{
+    
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.div2{
+ color: yellow;
+ padding-top: 30%;
+ font-size: 25px;
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ font-family: 'Ubuntu', sans-serif;
+ font-weight: bold;
+
+}
+.p1{
+    color: white;
+    font-size:large;
+    word-spacing: 4px;
+   
+}
+button{
+    background-color: rgb(58, 147, 58);
+    padding: 9px 9px;
+    border-radius: 15px;
+    font-weight: 900px;
+
+   
+}
+
+
+
+   
