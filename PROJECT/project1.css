@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+nav{
+    background-color: white ;
+    display: flex;
+     text-decoration: none;
+     height: 75px;
+     padding: 0px 50px;
+     align-items: center;
+     
+ 
+
+ 
+}
+
+ul{
+    list-style-type:none;
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-size: larger;
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+  font-family: 'Courgette', cursive;
+}
+input{
+   padding-left: 20px;
+   border-radius: 10px;
+   height: 30px;
+   box-shadow: 1px 1px;
+   margin-left: 250px;
+      
+}
+button {
+    background-color: rgb(168, 241, 241);
+    border-radius: 4px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    width: 25%;
+    height: 40px;
+    font-weight: 500;
+    border-color: whitesmoke;
+    margin-left: 300px;
+    
+   
+    
+    
+}
+.button1{
+    background-color: rgb(244, 60, 60);
+    border-color: whitesmoke;
+    width: 25%;
+    margin-left: 0px;
+}
+
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+.nav1{
+    background-color: rgb(235, 249, 249);
+   
+    
+}
+
+select{
+    background-color: rgb(235,249,249) ;
+    border-color: rgb(235, 249, 249);
+    font-size: medium;
+    margin: 30px;
+    padding: 0px 15px;
+    color: rgb(80, 86, 86);
+    font-weight: 600;
+}
+select:hover {
+    background-color: white;
+    
+}
+.sel1{
+     width: 145px;
+
+}
+.sel2{
+    width:140px;
+   
+}
+.sel3{
+    width: 130px;
+}
+.sel4{
+    width: 170px;
+}
+.sel5{
+    width: 125px;
+}
+.sel6{
+    width: 140px;
+}
+.div1{
+ background-image: url(hospital1.jpg);
+ height: 500px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100vw;
+}
+h1{
+    line-height: 0%;
+    letter-spacing: 6px;
+    padding-top: 20px;
+
+}
+.div2{
+    padding-top: 185px;
+    margin-left: 300px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pre1{
+    font-size: larger;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+  
+}
+
+.fa-phone{
+    margin-right: 7px;
+}
+
+.fa-truck-medical{
+    margin-right: 7px;
+}
+
+.bun1{
+    padding-bottom: opx;
+}
+.list1{
+   display: flex;
+   margin-top: 80px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   text-decoration: none;
+   justify-content: space-between;
+   padding-left: 200px;
+   padding-right: 200px;
+   color: rgb(80, 86, 86);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline ;
+}
+    
+
+.fa-calendar-check{
+    width: 30px;
+}
+.fa-hospital-user{
+    width: 30px;
+}
+.fa-heart-pulse{
+    width: 30px;
+}
+img{
+   float: right;
+   margin-top: 45px;
+  
+}
+h2{
+    margin-top: 40px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    color: rgb(50, 184, 184);
+    margin-left: 15px;
+
+}
+.list2{
+    padding-left: 50px;
+    font-weight: 100;
+    line-height: 40px;
+    list-style: circle;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+}
+.para1{
+    font-weight: 300;
+    line-height: 40px;
+    font-size: larger;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+}
+.img1{
+    margin-top: 100px;
+    height: 50%;
+    margin: 100px;
+    margin-right: 300px;
+    border-radius: 1000px;
+}
+.para2{
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: red;
+}
+.para3{
+    margin-left: 200px;
+    margin-top: 20px;
+    letter-spacing: 0cap;
+    color: rgb(44, 68, 68); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+.button2{
+    width: 150px;
+    margin-top: px;
+    margin-left: 600px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(254, 1, 1);
+    font-size: large;
+    font-weight: bold;
+   
+}
+.head4{
+    letter-spacing: 0cap;
+    color: rgb(1, 13, 13);
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+h3{
+    margin-top: 40px;
+}   
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.img2{
+    float: left;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 240px;
+    border-radius: 100px;
+  
+}  
+.para4{
+    line-height: 40px;
+    letter-spacing: 2px;
+    padding-left: 40%;
+    padding-top: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    
+}
+.span1{
+    color:rgba(2,125,88,255);
+    font-weight: bold;
+}
+.para5{
+    line-height: 30px;
+    letter-spacing: 0cap;
+    margin-left: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.link1{
+    letter-spacing: 0cap;
+    font-size: x-large;
+    margin-left: 350px;
+    color: black;
+    font-weight: 700;
+}
+.span2{
+    color: rgba(2,125,88,255);
+    font-weight: 600;
+    
+}
+section{
+    display: flex;
+    background-image: linear-gradient(rgba(191, 226, 226, 0.781),rgb(243, 250, 250));
+    margin-top: 20px;
+    height: 400px;
+  
+    
+    
+    
+}
+.diva,.divb,.divc{
+    width: 350px;
+    height:385px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px 3px rgb(237, 230, 230);
+    margin-right: 20px ;
+    margin-bottom: 10px;
+    
+   
+
+}
+.imga,.imgb,.imgc{
+    width: 250px;
+    height: 150px;
+    margin-left: 70px;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.par1{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: large;
+}
+.check1{
+    margin-top: 500px;
+    color: rgb(17, 16, 16);
+    margin-left: 100px;
+    font-weight: 600;
+}
+.divd{
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+.diva{
+    margin-left: 150px;
+}
+.dive{
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 200px;
+   
+}
+.nav2{
+    letter-spacing: 0cap;
+    line-height: 40px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.divh{
+    margin-left:600px ;
+    margin-top: 10px;
+    
+}
+.ul1{
+    letter-spacing: 0cap;
+    line-height: 20px;
+    font-size: large;
+    margin-top: 30px;
+}
+.nav2{
+    margin-top: 100px;
+}
+
+.seca{
+    background-image: linear-gradient(rgba(191, 226, 226, 0.781),rgb(243, 250, 250));
+    margin-top: 30px;
+  
+  
+  
+  
+}
+.divx,.divy,.divz,.divf{
+    width: 100%;
+    height:400px;
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px 3px rgb(237, 230, 230);
+    margin-right: 20px ;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 65px;
+}
+.imgx,.imgy,.imgz,.imgf{
+    height: 180px;
+    width: 180px;
+    margin-top: 8px;
+    border-radius: 30px;
+    margin-right: 70px;
+}
+.par3{
+    letter-spacing: 0cap;
+    line-height: 25px;
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+    .divx{
+        width: 100%;
+}
+.head5{
+    letter-spacing: 0cap;
+    color: rgb(1, 13, 13);
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
+    margin-top: 30px;
+    margin-left: 650px;
+    
+
+}
+.hel1{
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 3px;
+    background-color: rgb(230, 237, 235);
+    margin-left: 15px;
+}
+.fa-magnifying-glass{
+          transform: translateX(-250px);
+}
+
+
+
+
+   
+
+
+
+   
+  
+    
+
+    
